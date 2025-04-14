@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 98338da89d9ae8b4c8f3ee95422f11d2
+guid: df59f7a6636383a41b017ec8c877cf7b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8293449488101891303
-    second: doorClosed_0
+      213: -3689593967313257683
+    second: Slime_Verti_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: doorClosed_0
+      name: Slime_Verti_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 300
-        height: 400
+        width: 40
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 913aa0391afb7ec80800000000000000
-      internalID: -8293449488101891303
+      spriteID: d2b7ed4c5ddebccc0800000000000000
+      internalID: -3689593967313257683
       vertices: []
       indices: 
       edges: []

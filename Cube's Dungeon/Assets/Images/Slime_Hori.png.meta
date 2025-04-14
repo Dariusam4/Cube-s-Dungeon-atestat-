@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 16b9a5991aa7f3b4ca0f9b756b430132
+guid: ff6ba6df459b6b749b5ded88927df2b6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4894058458210155400
-    second: Outline2_0
+      213: -4190922967302011877
+    second: Slime_Hori_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Outline2_0
+      name: Slime_Hori_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1043
+        width: 200
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 874436813cfc41cb0800000000000000
-      internalID: -4894058458210155400
+      spriteID: b1400f404c9d6d5c0800000000000000
+      internalID: -4190922967302011877
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Outline2_0: -4894058458210155400
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

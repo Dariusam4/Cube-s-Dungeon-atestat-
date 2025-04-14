@@ -4,11 +4,11 @@ using System.Collections;
 public class NewBehaviourScript : MonoBehaviour
 {
     float horizontalInput;
-    float moveSpeed = 5f;
+    float moveSpeed = 3f;
 
     bool isFacingRight = true;
 
-    float jumpPower = 6.7f;
+    float jumpPower = 5f;
     bool isJumping = false;
 
     Rigidbody2D rb;
