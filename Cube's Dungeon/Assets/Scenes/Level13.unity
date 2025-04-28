@@ -425,7 +425,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -441,6 +441,18 @@ PrefabInstance:
     - target: {fileID: 2577307992424034802, guid: f5ae510197b6c1e4497aeff87ea5eb13, type: 3}
       propertyPath: m_Name
       value: Win
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577307992424034802, guid: f5ae510197b6c1e4497aeff87ea5eb13, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016521192018454674, guid: f5ae510197b6c1e4497aeff87ea5eb13, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 129
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438417824814280428, guid: f5ae510197b6c1e4497aeff87ea5eb13, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -82
       objectReference: {fileID: 0}
     - target: {fileID: 6663694263964515573, guid: f5ae510197b6c1e4497aeff87ea5eb13, type: 3}
       propertyPath: m_Pivot.x
@@ -531,7 +543,8 @@ PrefabInstance:
       value: ToNextLevel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6950328804926223115, guid: f5ae510197b6c1e4497aeff87ea5eb13, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6663694263964515573, guid: f5ae510197b6c1e4497aeff87ea5eb13, type: 3}
       insertIndex: -1
