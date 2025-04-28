@@ -3,8 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDeath : MonoBehaviour
 {
-    public GameObject deathMenuUI;       // Assign your UI death menu panel here
-    public GameObject playerVisual;      // Assign the visual part of the player (e.g., sprite)
+    public GameObject deathMenuUI; 
+    public GameObject playerVisual;
 
     private bool isDead = false;
 
@@ -20,20 +20,16 @@ public class PlayerDeath : MonoBehaviour
     {
         isDead = true;
 
-        // Hide the player visual (they "disappear")
         if (playerVisual != null)
             playerVisual.SetActive(false);
 
-        // Disable movement & physics
         GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         GetComponent<Rigidbody2D>().isKinematic = true;
         GetComponent<Collider2D>().enabled = false;
 
-        // Show death UI
         if (deathMenuUI != null)
             deathMenuUI.SetActive(true);
 
-        // Pause game
         Time.timeScale = 0f;
     }
 }

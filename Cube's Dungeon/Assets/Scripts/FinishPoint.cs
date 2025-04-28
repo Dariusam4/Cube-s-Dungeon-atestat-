@@ -12,7 +12,7 @@ public class FinishPoint : MonoBehaviour
             UnlockNewLevel();
             winMenuUI.SetActive(true);
             Time.timeScale = 0f;
-            
+            FindObjectOfType<LevelTimer>().StopTimer();
         }
     }
     void UnlockNewLevel()
